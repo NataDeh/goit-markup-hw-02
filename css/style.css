@@ -85,7 +85,7 @@ h2{
     background-color: #2F303A;
     text-align: center;
     }
-.about-hero{
+.hero-title{
     color: var(--main-title-color);
     font-weight: 900;
     font-size: 44px;
