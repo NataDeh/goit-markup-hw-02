@@ -1,9 +1,10 @@
 :root{
     --main-title-color:#FFFFFF;
     --secondary-title-color:#212121;
-    --main-text-color:#757575;
+    --main-text-color: rgba(117, 117, 117, 1);
     --accent-color:#2196F3;
     --accent-hover-color:#188CE8;
+    --footer-contacts-color: rgba(255, 255, 255, 0,6)
 }
 
 /* logo */
@@ -95,17 +96,13 @@ h2{
 }
 
 
-/* About list */
-h3{
-    color: var(--secondary-title-color);
-    font-weight: 700;
-    letter-spacing: 0.03em; 
-    
-}
+/* -- About -----*/
+
 .about-head{
     text-transform: uppercase;
+    font-weight: 700;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
 }
 .about-text{
     color: var(--main-text-color);
@@ -113,6 +110,15 @@ h3{
     line-height: 1.17;
     Letter-spacing: 0.03em;
 }
+
+
+.team-worker{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--secondary-title-color);
+}
+
 .team-porfolio{
     color: var(--main-text-color);
     font-size: 16px;
@@ -132,6 +138,19 @@ h3{
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
+.footer-address{
+    font-style:normal;
+}
+.footer-link{
+    color: var(--main-title-color);
+}
+.footer-contact{
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--footer-contacts-color);
+}
+
+/* -----------PORTFOLIO------ */
 .filter-button{
     color: rgba(33, 33, 33, 1);
     font-family: inherit;
