@@ -2,7 +2,7 @@
     --main-title-color:#FFFFFF;
     --secondary-title-color:#212121;
     --main-text-color: rgba(117, 117, 117, 1);
-    --accent-color:#2196F3;
+    --accent-color: rgba(33, 150, 243, 1);    ;
     --accent-hover-color:#188CE8;
     --footer-contacts-color: rgba(255, 255, 255, 0,6)
 }
@@ -44,7 +44,7 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    Letter-spacing: 0.03em;
+    Letter-spacing: 0.06em;
 }
 .btn:hover,
 .btn:focus{
@@ -80,7 +80,10 @@ h2{
     line-height: 1.14;
     lLetter-spacing: 0.02em;
 }
-/* hero */
+
+
+/*-------- HERO------------ */
+
 .hero{
     background-color: #2F303A;
     text-align: center;
@@ -92,6 +95,16 @@ h2{
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+.hero-button{
+    font-family: Roboto;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06;
+    background: var(--accent-color);
+    color: var(--main-title-color);
+    cursor: pointer;
 }
 
 
@@ -153,15 +166,19 @@ h2{
 
 /* -----------PORTFOLIO------ */
 .filter{
-    color: rgba(33, 33, 33, 1);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+    cursor: pointer;
 }
 
 .portfolio-head{
     font-size: 18px;
     line-height: 2;  
 }
+
+.contacts-list {
+    list-style: none;
