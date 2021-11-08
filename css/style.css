@@ -7,10 +7,15 @@
     --footer-contacts-color: rgba(255, 255, 255, 0,6)
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
 /* logo */
 .logo{
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -23,12 +28,6 @@
 .logo-studio {
     color: var(--secondary-title-color);
 }
-
-body{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.03em;
-}
-
 .list {
     list-style: none;
 }
@@ -58,28 +57,28 @@ h2{
     text-align: center;
     font-size: 36px;
     line-height: 1.16;
-    Letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 }
 .header-link{
     color: var(--secondary-title-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    Letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
 }
 .header-light{
     color: var(--accent-hover-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    Letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
 }
 .contact{
     color: var(--main-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    Letter-spacing: 0.02em;
+    lLetter-spacing: 0.02em;
 }
 /* hero */
 .hero{
@@ -103,12 +102,13 @@ h2{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 .about-text{
     color: var(--main-text-color);
     font-size: 16px;
     line-height: 1.17;
-    Letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 }
 
 
@@ -117,13 +117,14 @@ h2{
     font-size: 16px;
     line-height: 1.19;
     color: var(--secondary-title-color);
+    letter-spacing: 0.03em;
 }
 
 .team-porfolio{
     color: var(--main-text-color);
     font-size: 16px;
     line-height: 1.17;
-    Letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 }
 /* Footer */
 .footer{
@@ -151,13 +152,13 @@ h2{
 }
 
 /* -----------PORTFOLIO------ */
-.filter-button{
+.filter{
     color: rgba(33, 33, 33, 1);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    Letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-head{
