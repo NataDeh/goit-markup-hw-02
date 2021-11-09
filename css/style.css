@@ -98,10 +98,10 @@ h2{
 }
 .hero-button{
     font-family: Roboto;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.06;
+    letter-spacing: 0.06em;
     background: var(--accent-color);
     color: var(--main-title-color);
     cursor: pointer;
